@@ -1,0 +1,6 @@
+import os
+while True:
+    ls = str(os.system("pwd"))
+    username = "ihnv"
+    INPUT = input(username + "@" + ls + "~# ")
+    os.system(INPUT)
